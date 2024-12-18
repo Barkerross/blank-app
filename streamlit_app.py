@@ -16,7 +16,7 @@ def get_data_from_excel():
     try:
         # Load the Excel file
         df = pd.read_excel(
-            io='master_file.xlsx',
+            io='C:\Users\dmc86\Desktop\Logs\master_file.xlsx',
             engine='openpyxl',
             sheet_name='Sheet1',
             usecols='A:D',
